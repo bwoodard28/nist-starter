@@ -9,3 +9,9 @@ PR.PS-04,Log records are generated and made available for continuous monitoring,
 DE.CM-01,Networks and network services are monitored to find potentially adverse events,"8.16 (Monitoring activities), 8.20–8.22 (Network security/services/segregation)",CC7.2,"NDR/SIEM detections, alerts, tuning"
 RS.MA-01,The incident response plan is executed in coordination with relevant third parties once an incident is declared,"5.24 (Incident mgmt planning & preparation), 5.26 (Response to incidents)",CC7.4,"IR runbooks, vendor comms, exercises"
 RC.RP-03,The integrity of backups and other restoration assets is verified before using them for restoration,"8.13 (Information backup), 5.30 (ICT readiness for business continuity)",CC7.5 (Recovery),Checksum/scan backups before restore
+csf_id,csf_text,iso27001_controls,soc2_criteria,notes
+PR.AA-05,Access permissions...least privilege & SoD,5.15;5.18;8.2,CC6.3,"RBAC, quarterly reviews"
+DE.CM-01,Networks monitored for adverse events,8.16;8.20–8.22,CC7.2,"NDR/SIEM, alerting"
+RS.MA-01,IR plan executed with third parties,5.24;5.26,CC7.4,"IR runbooks, vendor comms, tabletop"
+PR.DS-11,Backups created/protected/tested,8.13;5.30,CC7.5,"3-2-1, immutability, restore tests"
+GV.OC-03,Legal/regulatory/contractual requirements managed,5.31,CC1.x,"Obligations inventory + SoA alignment"
