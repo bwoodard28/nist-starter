@@ -1,0 +1,37 @@
+# CSF 2.0 Profile (Starter)
+meta:
+  profile_name: "Starter Profile"
+  version: "0.1.0"
+  created: "2025-10-03"
+  owner: "your-handle"
+scope:
+  business_objectives:
+    - "Protect customer data for SaaS app X"
+  systems_in_scope:
+    - "prod-app-cluster"
+    - "prod-db"
+    - "corp-idp"
+  third_parties_in_scope:
+    - "cloud-provider"
+    - "observability/SIEM vendor"
+risk_tolerance:
+  description: "Moderate; prioritize confidentiality and availability for customer data."
+target_timeline:
+  start: "2025-10-03"
+  end: "2026-01-01"
+tiers:
+  # CSF 2.0 still supports Implementation Tiers as organizational context (not a maturity model).
+  current: "Tier 2: Risk Informed"
+  target: "Tier 3: Repeatable"
+prioritized_outcomes:
+  - id: "PR.AA-05"
+    rationale: "Least privilege and SoD for prod access"
+  - id: "DE.CM-01"
+    rationale: "Network monitoring for adverse events"
+  - id: "RS.MA-01"
+    rationale: "IR plan execution incl. vendors"
+measurement:
+  method: "0–5 scale (0=not started, 5=fully effective with evidence)"
+  cadence: "monthly"
+tracking:
+  evidence_folder: "../03-evidence/"
